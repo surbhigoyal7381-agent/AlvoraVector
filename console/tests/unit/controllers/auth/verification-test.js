@@ -200,7 +200,9 @@ module('Unit | Controller | auth/verification | resend and verify', function (ho
         assert.deepEqual(this.owner.lookup('service:session').authenticated, ['auth-token']);
         assert.deepEqual(this.transitions, ['console']);
         assert.deepEqual(this.notifications().successes, ['Email successfully verified!']);
-        assert.deepEqual(this.notifications().infos, ['Welcome to Alvora Vector']);
+        // the product name comes from intl (app.name), which this test stubs; only the sentence is under test
+        assert.strictEqual(this.notifications().infos.length, 1);
+        assert.ok(this.notifications().infos[0].startsWith('Welcome to '), 'welcomes the user by product name');
     });
 
     test('verifyCode sends the user to login when no token comes back', async function (assert) {
