@@ -13,8 +13,8 @@ iam:
     index:
       confirming-fleetbase-will-re-send-invitation-for-user-to-join-your-organization: By confirming Alvora Vector will re-send the invitation for this user to join your organization.
     invite:
-      description: Enter the email address of the person you want to invite. If they already have a Alvora Vector account they will receive an invitation to join your organisation. If they are new, a pending account will be created and they will be asked to set a password on acceptance.
-      name-help: Required only if the person does not yet have a Alvora Vector account.
+      description: Enter the email address of the person you want to invite. If they already have an Alvora Vector account they will receive an invitation to join your organisation. If they are new, a pending account will be created and they will be asked to set a password on acceptance.
+      name-help: Required only if the person does not yet have an Alvora Vector account.
 integrated-vendor:
   fields:
     webhook-help-text: Integrated vendors will typically require this so that Alvora Vector can receive activity updates on the order. Do not change unless you know what you are doing! Changing this may break your order updates!
@@ -52,12 +52,6 @@ storefront:
     modals:
       create-first-store:
         message: Storefront allows you to quickly setup a headless and dynamic on-demand shop powered by Alvora Vector.
-tracking-page:
-  page:
-    powered-by: Powered by Alvora Vector
-  settings:
-    powered-by: Show "Powered by Alvora Vector"
-    preview-powered-by: Powered by Alvora Vector
 widget:
   transactions:
     message: When orders are going through with service rates, Alvora Vector tracks transactions automatically.

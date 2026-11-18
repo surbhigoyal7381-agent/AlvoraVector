@@ -56,9 +56,3 @@ storefront:
     modals:
       create-first-store:
         message: تتيح لك واجهة المتجر إعداد متجر ديناميكي وبدون واجهة بسرعة مدعوم من Alvora Vector.
-tracking-page:
-  page:
-    powered-by: مدعوم من Alvora Vector
-  settings:
-    powered-by: إظهار "مدعوم من Alvora Vector"
-    preview-powered-by: مدعوم من Alvora Vector

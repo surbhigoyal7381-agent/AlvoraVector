@@ -10,7 +10,7 @@
 // ALLOW_FILES below. The legal notice / attribution is inside @fleetbase/ember-ui and is not scanned.
 import fs from 'node:fs';
 import path from 'node:path';
-import { ALLOW_LEAF_KEYS, ALLOW_PHRASES, NAME_PATTERN, consoleDir, engineTranslations, flatten, hostDir, allLocales, listYaml, localeOf, overridesDir, readYaml } from './brand-rules.mjs';
+import { ALLOW_LEAF_KEYS, buildOverrides, ALLOW_PHRASES, NAME_PATTERN, consoleDir, engineTranslations, flatten, hostDir, allLocales, listYaml, localeOf, overridesDir, readYaml } from './brand-rules.mjs';
 
 // Files whose "Fleetbase" is Fleetbase's own content or a developer-only log line.
 const ALLOW_FILES = new Set([
@@ -26,6 +26,13 @@ const hits = (text, capitalOnly = false) => {
     ALLOW_PHRASES.forEach((re) => (t = t.replace(re, '')));
     return (t.match(NAME_PATTERN) || []).some((m) => !capitalOnly || m !== m.toLowerCase() || !/^fleetbase$/.test(m));
 };
+
+// 0. committed overrides must equal a fresh in-memory regeneration (catches stale text after an upstream change)
+const fresh = buildOverrides();
+const committed = Object.fromEntries(listYaml(overridesDir).map((f) => [localeOf(f), fs.readFileSync(path.join(overridesDir, f), 'utf8')]));
+for (const locale of new Set([...Object.keys(fresh), ...Object.keys(committed)])) {
+    if (fresh[locale] !== committed[locale]) problems.push(`brand-overrides/${locale}.yaml is stale: run \`pnpm brand:overrides\` and commit`);
+}
 
 // 1. merged translations
 const engines = engineTranslations();

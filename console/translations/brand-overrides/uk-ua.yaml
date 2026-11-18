@@ -44,12 +44,6 @@ storefront:
     modals:
       create-first-store:
         message: Storefront дозволяє швидко налаштувати автономний та динамічний магазин на вимогу на базі Alvora Vector.
-tracking-page:
-  page:
-    powered-by: Працює на Alvora Vector
-  settings:
-    powered-by: Показувати «Працює на Alvora Vector»
-    preview-powered-by: Працює на Alvora Vector
 widget:
   transactions:
     message: Коли замовлення проходять із тарифами на послуги, Alvora Vector відстежує транзакції автоматично.

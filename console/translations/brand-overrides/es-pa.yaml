@@ -22,12 +22,6 @@ order:
     optimize-route-help-text: Alvora Vector optimizará automáticamente la ruta.
     order-type-help-text: Seleccionar el tipo de orden le indicará a Alvora Vector qué configuraciones de orden usar.
     service-quote-info: Seleccione una cotización de servicio en tiempo real para aplicar a este pedido. Una vez que se aplica una cotización al pedido, se convertirá en una tarifa comprada. Las transacciones se rastrearán dentro del libro mayor de Alvora Vector.
-tracking-page:
-  page:
-    powered-by: Con tecnología de Alvora Vector
-  settings:
-    powered-by: Mostrar "Con tecnología de Alvora Vector"
-    preview-powered-by: Con tecnología de Alvora Vector
 widget:
   transactions:
     message: Cuando los pedidos se procesan con tarifas de servicio, Alvora Vector realiza un seguimiento de las transacciones automáticamente.

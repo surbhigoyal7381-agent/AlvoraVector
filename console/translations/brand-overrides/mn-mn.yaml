@@ -42,12 +42,6 @@ storefront:
     modals:
       create-first-store:
         message: Дэлгүүрийн нүүр нь Alvora Vector-ийн хүчээр хурдан бөгөөд динамик захиалгат дэлгүүрийг тохируулах боломжийг олгодог.
-tracking-page:
-  page:
-    powered-by: Powered by Alvora Vector
-  settings:
-    powered-by: '"Powered by Alvora Vector"-ийг харуулах'
-    preview-powered-by: Powered by Alvora Vector
 widget:
   transactions:
     message: Захиалгууд үйлчилгээний хураамжтайгаар явагдаж байх үед Alvora Vector гүйлгээг автоматаар хянадаг.

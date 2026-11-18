@@ -871,7 +871,7 @@ onboard:
 
 install:
   not-configured-title: Alvora Vector non è installato o configurato
-  not-configured-message: Completa la configurazione dalla CLI di Alvora Vector o dal container dell'applicazione, poi ricarica questa pagina quando database, migrazioni e dati iniziali saranno pronti.
+  not-configured-message: Completa la configurazione dalla CLI di Fleetbase o dal container dell'applicazione, poi ricarica questa pagina quando database, migrazioni e dati iniziali saranno pronti.
   running-locally-docs: Vedi la documentazione per l'esecuzione in locale
   cloud-docs: Vedi la documentazione per il deployment in cloud
   refreshing: Installazione completata, ricaricamento in corso...

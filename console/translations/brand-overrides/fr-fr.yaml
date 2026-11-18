@@ -14,7 +14,7 @@ iam:
       confirming-fleetbase-will-re-send-invitation-for-user-to-join-your-organization: En confirmant, Alvora Vector renverra l'invitation pour que cet utilisateur rejoigne votre organisation.
 integrated-vendor:
   fields:
-    webhook-help-text: Les fournisseurs intégrés nécessitent généralement ceci pour que Alvora Vector puisse recevoir des mises à jour d'activité sur la commande. Ne changez pas sauf si vous savez ce que vous faites ! Modifier ceci peut casser vos mises à jour de commande !
+    webhook-help-text: Les fournisseurs intégrés nécessitent généralement ceci pour qu'Alvora Vector puisse recevoir des mises à jour d'activité sur la commande. Ne changez pas sauf si vous savez ce que vous faites ! Modifier ceci peut casser vos mises à jour de commande !
 modals:
   order-new-activity:
     fleetbase-message: Alvora Vector ne recommande pas cela à moins que vous ne sachiez absolument ce que vous faites.
@@ -25,7 +25,7 @@ modals:
   set-password:
     message: Bienvenue chez Alvora Vector ! Avant de commencer, définissez un nouveau mot de passe pour continuer ci-dessous.
   vendor-form:
-    webhook-text: Les fournisseurs intégrés nécessitent généralement ceci afin que Alvora Vector puisse recevoir des mises à jour d'activité sur la commande. Ne modifiez pas sauf si vous savez ce que vous faites ! Modifier ceci peut interrompre vos mises à jour de commande !
+    webhook-text: Les fournisseurs intégrés nécessitent généralement ceci afin qu'Alvora Vector puisse recevoir des mises à jour d'activité sur la commande. Ne modifiez pas sauf si vous savez ce que vous faites ! Modifier ceci peut interrompre vos mises à jour de commande !
 order-config-manager:
   message: Les configurations de commande vous permettent de définir des configurations dynamiques qui indiqueront à Alvora Vector comment différents types de commandes doivent être exécutés.
 order:
@@ -39,12 +39,6 @@ storefront:
     modals:
       create-first-store:
         message: La vitrine vous permet de configurer rapidement une boutique dynamique et sans tête à la demande propulsée par Alvora Vector.
-tracking-page:
-  page:
-    powered-by: Propulsé par Alvora Vector
-  settings:
-    powered-by: Afficher « Propulsé par Alvora Vector »
-    preview-powered-by: Propulsé par Alvora Vector
 widget:
   transactions:
     message: Lorsque les commandes sont traitées avec des tarifs de service, Alvora Vector suit automatiquement les transactions.

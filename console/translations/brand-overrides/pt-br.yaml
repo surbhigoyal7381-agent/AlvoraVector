@@ -39,12 +39,6 @@ storefront:
     modals:
       create-first-store:
         message: A Vitrine permite que você configure rapidamente uma loja dinâmica e headless sob demanda, impulsionada pela Alvora Vector.
-tracking-page:
-  page:
-    powered-by: Powered by Alvora Vector
-  settings:
-    powered-by: Mostrar "Powered by Alvora Vector"
-    preview-powered-by: Powered by Alvora Vector
 widget:
   transactions:
     message: Quando os pedidos são processados com taxas de serviço, o Alvora Vector rastreia as transações automaticamente.

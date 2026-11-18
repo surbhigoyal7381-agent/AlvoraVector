@@ -54,9 +54,3 @@ storefront:
     modals:
       create-first-store:
         message: Cửa hàng cho phép bạn nhanh chóng thiết lập một cửa hàng không giao diện và động theo yêu cầu được hỗ trợ bởi Alvora Vector.
-tracking-page:
-  page:
-    powered-by: Powered by Alvora Vector
-  settings:
-    powered-by: Hiển thị "Powered by Alvora Vector"
-    preview-powered-by: Powered by Alvora Vector

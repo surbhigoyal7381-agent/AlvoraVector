@@ -42,12 +42,6 @@ storefront:
     modals:
       create-first-store:
         message: Витрина позволяет быстро настроить headless и динамичный магазин по требованию на базе Alvora Vector.
-tracking-page:
-  page:
-    powered-by: Работает на Alvora Vector
-  settings:
-    powered-by: Показывать «Работает на Alvora Vector»
-    preview-powered-by: Работает на Alvora Vector
 widget:
   transactions:
     message: Когда заказы проходят с тарифами на услуги, Alvora Vector автоматически отслеживает транзакции.
