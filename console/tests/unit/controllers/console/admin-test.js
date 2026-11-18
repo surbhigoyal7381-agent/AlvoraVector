@@ -224,7 +224,7 @@ module('Unit | Controller | console/admin', function (hooks) {
         assert.deepEqual(
             authConfig.children.map((item) => item.label),
             ['OAuth Sign-in', 'OAuth Apps', 'Two-Factor Auth'],
-            'sign-in first, then the apps that sign in with Fleetbase, then the second factor'
+            'sign-in first, then the apps that sign in with Alvora Vector, then the second factor'
         );
         // Grouping is sidebar-only: 2FA keeps its route, so existing links still work.
         assert.deepEqual(
