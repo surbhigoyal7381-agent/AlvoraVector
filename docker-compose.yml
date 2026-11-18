@@ -65,6 +65,10 @@ services:
       CACHE_PATH: /fleetbase/api/storage/framework/cache
       CACHE_URL: tcp://cache
       REDIS_URL: tcp://cache
+      MAIL_FROM_NAME: Alvora Vector
+      APP_NAME: Alvora Vector
+      REDIS_PREFIX: fleetbase_database_
+      CACHE_PREFIX: "laravel_cache:"
       SOCKETCLUSTER_AUTH_ENABLED: ${SOCKETCLUSTER_AUTH_ENABLED:-false}
       SOCKETCLUSTER_AUTH_KEY: ${SOCKETCLUSTER_AUTH_KEY:-}
       SOCKETCLUSTER_PUBLISH_URL: http://socket:8001
@@ -91,6 +95,10 @@ services:
       CACHE_PATH: /fleetbase/api/storage/framework/cache
       CACHE_URL: tcp://cache
       REDIS_URL: tcp://cache
+      MAIL_FROM_NAME: Alvora Vector
+      APP_NAME: Alvora Vector
+      REDIS_PREFIX: fleetbase_database_
+      CACHE_PREFIX: "laravel_cache:"
       SOCKETCLUSTER_AUTH_ENABLED: ${SOCKETCLUSTER_AUTH_ENABLED:-false}
       SOCKETCLUSTER_AUTH_KEY: ${SOCKETCLUSTER_AUTH_KEY:-}
       SOCKETCLUSTER_PUBLISH_URL: http://socket:8001
@@ -129,8 +137,13 @@ services:
       REDIS_URL: tcp://cache
       SESSION_DOMAIN: localhost
       BROADCAST_DRIVER: socketcluster
+      # Product name. APP_NAME also derives the Redis, cache and session-cookie names, so those are
+      # pinned to what they were before the rename: app, queue and scheduler must share one queue.
       MAIL_FROM_NAME: Alvora Vector
       APP_NAME: Alvora Vector
+      REDIS_PREFIX: fleetbase_database_
+      CACHE_PREFIX: "fleetbase_cache:"
+      SESSION_COOKIE: fleetbase_session
       LOG_CHANNEL: daily
       REGISTRY_HOST: https://registry.fleetbase.io
       REGISTRY_PREINSTALLED_EXTENSIONS: "true"
