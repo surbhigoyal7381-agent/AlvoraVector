@@ -44,4 +44,4 @@ With `app.name` in `translations/en-us.yaml` set back to "Fleetbase" and one ove
 - Hosted-routing text, "Fleetbase CLI", Fleetbase Blog widget: they refer to Fleetbase's own services and content.
 - Phone apps (Navigator, Storefront): separate repos.
 - API-side strings (core-api emails, hosted-routing messages): the test email still says Fleetbase; config `APP_NAME` covers the rest.
-- `docker-compose.override.yml` and `api/.env` (git-ignored local files) may still set their own `APP_NAME`; the compose change applies to the tracked file only.
+- `docker-compose.override.yml` and `api/.env` (git-ignored) may set their own `APP_NAME`; a real install must set the name and the pinned prefixes on application, queue and scheduler alike.
