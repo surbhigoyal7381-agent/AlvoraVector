@@ -1,5 +1,5 @@
 app:
-  name: Fleetbase
+  name: Alvora Vector
 
 common:
   new: Новий
@@ -639,7 +639,7 @@ auth:
     success-message: Your email address has been updated.
     invalid-verification-code: This email change link is invalid or expired.
     title: Confirm email change
-    message-text: Confirm this change to update the login email for your Fleetbase account.
+    message-text: Confirm this change to update the login email for your Alvora Vector account.
     form:
       code:
         label: Confirmation code
@@ -805,10 +805,10 @@ invite:
 
 oauth:
   authorize:
-    title: "Продовжити з Fleetbase"
+    title: "Продовжити з Alvora Vector"
     loading: "Перевіряємо запит..."
-    heading: "{app} хоче отримати доступ до вашого облікового запису Fleetbase"
-    official: "Створено Fleetbase"
+    heading: "{app} хоче отримати доступ до вашого облікового запису Alvora Vector"
+    official: "Створено Alvora Vector"
     signed-in-as: "Ви увійшли як {email}"
     not-you: "Це не ви?"
     organization-label: "Організація для доступу"
@@ -819,20 +819,20 @@ oauth:
     will-be-able-to: "{app} зможе:"
     allow: "Дозволити"
     cancel: "Скасувати"
-    footnote: "Ви надаєте доступ застосунку {app}, а не Fleetbase."
+    footnote: "Ви надаєте доступ застосунку {app}, а не Alvora Vector."
     privacy: "Політика конфіденційності"
     terms: "Умови"
     reauthenticate: "Увійдіть знову, щоб продовжити..."
     errors:
       generic: "Не вдалося виконати запит."
-      invalid-client: "Цей застосунок не зареєстровано у Fleetbase або його вимкнено."
+      invalid-client: "Цей застосунок не зареєстровано у Alvora Vector або його вимкнено."
       invalid-request: "Посилання із застосунку недійсне. Поверніться до застосунку й спробуйте ще раз."
       invalid-scope: "Застосунок запросив доступ, який йому не дозволено."
       no-organization: "Виберіть організацію, яку ви адмініструєте, щоб надати доступ цьому застосунку."
       go-back: "Можна закрити цю сторінку й повернутися до застосунку."
   connected-apps:
     title: "Підключені застосунки"
-    help: "Застосунки, у які ви увійшли з обліковим записом Fleetbase, і що кожен із них може робити. Якщо видалити застосунок, ви вийдете з нього, а його доступ одразу припиниться."
+    help: "Застосунки, у які ви увійшли з обліковим записом Alvora Vector, і що кожен із них може робити. Якщо видалити застосунок, ви вийдете з нього, а його доступ одразу припиниться."
     organization: "Має доступ до {organization}"
     sign-in-only: "Лише вхід"
     last-used: "востаннє використано {date}"
@@ -874,8 +874,8 @@ onboard:
       send-by-sms: Надіслати SMS
 
 install:
-  not-configured-title: Fleetbase не встановлено або не налаштовано.
-  not-configured-message: Завершіть налаштування через CLI Fleetbase або контейнер застосунку, а потім перезавантажте цю сторінку, коли база даних, міграції та початкові дані будуть готові.
+  not-configured-title: Alvora Vector не встановлено або не налаштовано.
+  not-configured-message: Завершіть налаштування через CLI Alvora Vector або контейнер застосунку, а потім перезавантажте цю сторінку, коли база даних, міграції та початкові дані будуть готові.
   running-locally-docs: Див. документацію щодо локального запуску.
   cloud-docs: Див. документацію щодо розгортання в хмарі.
   refreshing: Встановлення завершено, оновлення...

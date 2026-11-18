@@ -1,5 +1,5 @@
 app:
-  name: Fleetbase
+  name: Alvora Vector
 common:
   new: 新建
   create: 创建
@@ -557,7 +557,7 @@ auth:
       divider: '或使用以下方式继续'
       continue-with: '使用 {provider} 继续'
       signing-in: '正在登录...'
-      finish-signup: '请完成 Fleetbase 账户设置以继续。'
+      finish-signup: '请完成 Alvora Vector 账户设置以继续。'
       connected-accounts: '已关联账户'
       connected-accounts-help: '使用登录服务代替密码登录。可以关联多个。'
       linked-heading: '已关联'
@@ -585,7 +585,7 @@ auth:
         not-verified: '您的账户需要通过验证才能继续。'
         rate-limited: '尝试次数过多，请稍后重试。'
         already-linked: '该登录方式已关联到您的账户。'
-        identity-already-linked: '该账户已关联到另一位 Fleetbase 用户。'
+        identity-already-linked: '该账户已关联到另一位 Alvora Vector 用户。'
         last-credential: '请先设置密码或关联其他登录方式，否则您将无法登录。'
         link-failed: '无法关联该登录方式，请重试。'
     slow-connection-message: 网络连接不稳定。
@@ -609,7 +609,7 @@ auth:
     success-message: Your email address has been updated.
     invalid-verification-code: This email change link is invalid or expired.
     title: Confirm email change
-    message-text: Confirm this change to update the login email for your Fleetbase account.
+    message-text: Confirm this change to update the login email for your Alvora Vector account.
     form:
       code:
         label: Confirmation code
@@ -738,10 +738,10 @@ invite:
     accept-invitation-text: 接受邀请
 oauth:
   authorize:
-    title: "使用 Fleetbase 继续"
+    title: "使用 Alvora Vector 继续"
     loading: "正在检查请求..."
-    heading: "{app} 想要访问您的 Fleetbase 账户"
-    official: "Fleetbase 出品"
+    heading: "{app} 想要访问您的 Alvora Vector 账户"
+    official: "Alvora Vector 出品"
     signed-in-as: "已登录为 {email}"
     not-you: "不是您？"
     organization-label: "要共享的组织"
@@ -752,20 +752,20 @@ oauth:
     will-be-able-to: "{app} 将能够："
     allow: "允许"
     cancel: "取消"
-    footnote: "您是与 {app} 共享，而不是与 Fleetbase 共享。"
+    footnote: "您是与 {app} 共享，而不是与 Alvora Vector 共享。"
     privacy: "隐私政策"
     terms: "条款"
     reauthenticate: "请重新登录以继续..."
     errors:
       generic: "无法完成此请求。"
-      invalid-client: "此应用未在 Fleetbase 注册，或已被停用。"
+      invalid-client: "此应用未在 Alvora Vector 注册，或已被停用。"
       invalid-request: "来自应用的链接无效。请返回应用后重试。"
       invalid-scope: "该应用请求了不被允许的访问权限。"
       no-organization: "请选择一个由您管理的组织与此应用共享。"
       go-back: "您可以关闭此页面并返回应用。"
   connected-apps:
     title: "已连接的应用"
-    help: "您用 Fleetbase 账户登录过的应用，以及每个应用能做的事情。移除应用会让您退出该应用，并立即停止它的访问。"
+    help: "您用 Alvora Vector 账户登录过的应用，以及每个应用能做的事情。移除应用会让您退出该应用，并立即停止它的访问。"
     organization: "可访问 {organization}"
     sign-in-only: "仅登录"
     last-used: "上次使用于 {date}"
@@ -808,7 +808,7 @@ onboard:
       resend-email: 重新发送邮件
       send-by-sms: 通过短信发送
 install:
-  not-configured-title: Fleetbase is not installed or configured
+  not-configured-title: Alvora Vector is not installed or configured
   not-configured-message: Complete setup from the Fleetbase CLI or application container, then reload this page once the database, migrations, and seed data are ready.
   running-locally-docs: See running locally docs
   cloud-docs: See cloud deployment docs
