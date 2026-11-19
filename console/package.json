@@ -20,13 +20,15 @@
         "lint:hbs:fix": "ember-template-lint . --fix",
         "lint:js": "eslint . --cache",
         "lint:js:fix": "eslint . --fix",
+        "lint:brand": "node scripts/brand-check.mjs",
         "lint:intl": "fleetbase-intl-lint",
         "start": "ember serve",
         "start:dev": "ember serve --environment development",
         "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
         "test:ember": "ember test",
         "test:ember:coverage": "COVERAGE=true ember test",
-        "coverage:check": "node scripts/coverage-check.mjs"
+        "coverage:check": "node scripts/coverage-check.mjs",
+        "brand:overrides": "node scripts/brand-overrides.mjs"
     },
     "ember-addon": {
         "paths": [

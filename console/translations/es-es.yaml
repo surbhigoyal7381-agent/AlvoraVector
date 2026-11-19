@@ -1,5 +1,5 @@
 app:
-  name: Fleetbase
+  name: Alvora Vector
 common:
   new: Nuevo
   create: Crear
@@ -582,7 +582,7 @@ auth:
       divider: 'O continuar con'
       continue-with: 'Continuar con {provider}'
       signing-in: 'Iniciando sesión...'
-      finish-signup: 'Termine de configurar su cuenta de Fleetbase para continuar.'
+      finish-signup: 'Termine de configurar su cuenta de Alvora Vector para continuar.'
       connected-accounts: 'Cuentas vinculadas'
       connected-accounts-help: 'Inicie sesión con un proveedor en lugar de una contraseña. Puede vincular más de uno.'
       linked-heading: 'Vinculadas'
@@ -610,7 +610,7 @@ auth:
         not-verified: 'Su cuenta debe ser verificada para continuar.'
         rate-limited: 'Demasiados intentos. Inténtelo de nuevo en breve.'
         already-linked: 'Ese proveedor ya está vinculado a su cuenta.'
-        identity-already-linked: 'Esa cuenta ya está vinculada a otro usuario de Fleetbase.'
+        identity-already-linked: 'Esa cuenta ya está vinculada a otro usuario de Alvora Vector.'
         last-credential: 'Establezca una contraseña o vincule otro proveedor primero, o no podrá iniciar sesión.'
         link-failed: 'No se pudo vincular ese proveedor. Inténtelo de nuevo.'
     slow-connection-message: Experimentando problemas de conectividad.
@@ -635,7 +635,7 @@ auth:
     success-message: Your email address has been updated.
     invalid-verification-code: This email change link is invalid or expired.
     title: Confirm email change
-    message-text: Confirm this change to update the login email for your Fleetbase account.
+    message-text: Confirm this change to update the login email for your Alvora Vector account.
     form:
       code:
         label: Confirmation code
@@ -768,10 +768,10 @@ invite:
     accept-invitation-text: Aceptar invitación
 oauth:
   authorize:
-    title: "Continuar con Fleetbase"
+    title: "Continuar con Alvora Vector"
     loading: "Comprobando la solicitud..."
-    heading: "{app} quiere acceder a tu cuenta de Fleetbase"
-    official: "Hecha por Fleetbase"
+    heading: "{app} quiere acceder a tu cuenta de Alvora Vector"
+    official: "Hecha por Alvora Vector"
     signed-in-as: "Sesión iniciada como {email}"
     not-you: "¿No eres tú?"
     organization-label: "Organización que compartir"
@@ -782,20 +782,20 @@ oauth:
     will-be-able-to: "{app} podrá:"
     allow: "Permitir"
     cancel: "Cancelar"
-    footnote: "Lo compartes con {app}, no con Fleetbase."
+    footnote: "Lo compartes con {app}, no con Alvora Vector."
     privacy: "Política de privacidad"
     terms: "Condiciones"
     reauthenticate: "Inicia sesión de nuevo para continuar..."
     errors:
       generic: "No se pudo completar esta solicitud."
-      invalid-client: "Esta aplicación no está registrada en Fleetbase o se ha desactivado."
+      invalid-client: "Esta aplicación no está registrada en Alvora Vector o se ha desactivado."
       invalid-request: "El enlace de la aplicación no es válido. Vuelve a la aplicación e inténtalo de nuevo."
       invalid-scope: "La aplicación pidió un acceso que no tiene permitido."
       no-organization: "Elige una organización que administres para compartirla con esta aplicación."
       go-back: "Puedes cerrar esta página y volver a la aplicación."
   connected-apps:
     title: "Aplicaciones conectadas"
-    help: "Aplicaciones en las que iniciaste sesión con tu cuenta de Fleetbase y lo que puede hacer cada una. Al quitar una aplicación se cierra tu sesión en ella y su acceso termina al instante."
+    help: "Aplicaciones en las que iniciaste sesión con tu cuenta de Alvora Vector y lo que puede hacer cada una. Al quitar una aplicación se cierra tu sesión en ella y su acceso termina al instante."
     organization: "Tiene acceso a {organization}"
     sign-in-only: "Solo inicio de sesión"
     last-used: "último uso {date}"
@@ -844,7 +844,7 @@ onboard:
       resend-email: Reenviar correo electrónico
       send-by-sms: Enviar por SMS
 install:
-  not-configured-title: Fleetbase is not installed or configured
+  not-configured-title: Alvora Vector is not installed or configured
   not-configured-message: Complete setup from the Fleetbase CLI or application container, then reload this page once the database, migrations, and seed data are ready.
   running-locally-docs: See running locally docs
   cloud-docs: See cloud deployment docs

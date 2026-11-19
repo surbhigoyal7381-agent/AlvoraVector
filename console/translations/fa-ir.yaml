@@ -1,5 +1,5 @@
 app:
-  name: فلیت‌بیس
+  name: Alvora Vector
 common:
   new: جدید
   create: ایجاد
@@ -564,7 +564,7 @@ auth:
       divider: 'یا ادامه با'
       continue-with: 'ادامه با {provider}'
       signing-in: 'در حال ورود...'
-      finish-signup: 'برای ادامه، راه‌اندازی حساب Fleetbase خود را کامل کنید.'
+      finish-signup: 'برای ادامه، راه‌اندازی حساب Alvora Vector خود را کامل کنید.'
       connected-accounts: 'حساب‌های متصل'
       connected-accounts-help: 'به‌جای رمز عبور با یک ارائه‌دهنده وارد شوید. می‌توانید بیش از یکی متصل کنید.'
       linked-heading: 'متصل‌شده'
@@ -592,7 +592,7 @@ auth:
         not-verified: 'برای ادامه، حساب شما باید تأیید شود.'
         rate-limited: 'تلاش‌های بیش از حد. لطفاً کمی بعد دوباره تلاش کنید.'
         already-linked: 'این ارائه‌دهنده قبلاً به حساب شما متصل شده است.'
-        identity-already-linked: 'این حساب قبلاً به کاربر دیگری در Fleetbase متصل شده است.'
+        identity-already-linked: 'این حساب قبلاً به کاربر دیگری در Alvora Vector متصل شده است.'
         last-credential: 'ابتدا رمز عبور تعیین کنید یا ارائه‌دهنده دیگری متصل کنید، وگرنه نمی‌توانید وارد شوید.'
         link-failed: 'اتصال این ارائه‌دهنده ممکن نشد. لطفاً دوباره تلاش کنید.'
     slow-connection-message: در حال تجربه مشکلات اتصال
@@ -616,7 +616,7 @@ auth:
     success-message: Your email address has been updated.
     invalid-verification-code: This email change link is invalid or expired.
     title: Confirm email change
-    message-text: Confirm this change to update the login email for your Fleetbase account.
+    message-text: Confirm this change to update the login email for your Alvora Vector account.
     form:
       code:
         label: Confirmation code
@@ -745,10 +745,10 @@ invite:
     accept-invitation-text: پذیرش دعوت
 oauth:
   authorize:
-    title: "ادامه با Fleetbase"
+    title: "ادامه با Alvora Vector"
     loading: "در حال بررسی درخواست..."
-    heading: "{app} می‌خواهد به حساب Fleetbase شما دسترسی داشته باشد"
-    official: "ساخت Fleetbase"
+    heading: "{app} می‌خواهد به حساب Alvora Vector شما دسترسی داشته باشد"
+    official: "ساخت Alvora Vector"
     signed-in-as: "وارد شده با {email}"
     not-you: "شما نیستید؟"
     organization-label: "سازمانی که به اشتراک گذاشته می‌شود"
@@ -759,20 +759,20 @@ oauth:
     will-be-able-to: "{app} می‌تواند:"
     allow: "اجازه دادن"
     cancel: "لغو"
-    footnote: "این را با {app} به اشتراک می‌گذارید، نه با Fleetbase."
+    footnote: "این را با {app} به اشتراک می‌گذارید، نه با Alvora Vector."
     privacy: "سیاست حریم خصوصی"
     terms: "شرایط"
     reauthenticate: "برای ادامه دوباره وارد شوید..."
     errors:
       generic: "این درخواست انجام نشد."
-      invalid-client: "این برنامه در Fleetbase ثبت نشده یا غیرفعال شده است."
+      invalid-client: "این برنامه در Alvora Vector ثبت نشده یا غیرفعال شده است."
       invalid-request: "پیوند برنامه معتبر نیست. به برنامه برگردید و دوباره تلاش کنید."
       invalid-scope: "برنامه دسترسی‌ای خواست که مجاز به داشتن آن نیست."
       no-organization: "سازمانی را که مدیر آن هستید برای اشتراک با این برنامه انتخاب کنید."
       go-back: "می‌توانید این صفحه را ببندید و به برنامه برگردید."
   connected-apps:
     title: "برنامه‌های متصل"
-    help: "برنامه‌هایی که با حساب Fleetbase خود وارد آن‌ها شده‌اید و کاری که هرکدام می‌تواند انجام دهد. با حذف یک برنامه از آن خارج می‌شوید و دسترسی آن فوراً قطع می‌شود."
+    help: "برنامه‌هایی که با حساب Alvora Vector خود وارد آن‌ها شده‌اید و کاری که هرکدام می‌تواند انجام دهد. با حذف یک برنامه از آن خارج می‌شوید و دسترسی آن فوراً قطع می‌شود."
     organization: "به {organization} دسترسی دارد"
     sign-in-only: "فقط ورود"
     last-used: "آخرین استفاده {date}"
@@ -815,7 +815,7 @@ onboard:
       resend-email: ارسال مجدد ایمیل
       send-by-sms: ارسال از طریق پیامک
 install:
-  not-configured-title: Fleetbase is not installed or configured
+  not-configured-title: Alvora Vector is not installed or configured
   not-configured-message: Complete setup from the Fleetbase CLI or application container, then reload this page once the database, migrations, and seed data are ready.
   running-locally-docs: See running locally docs
   cloud-docs: See cloud deployment docs

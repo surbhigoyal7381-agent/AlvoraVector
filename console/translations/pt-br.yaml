@@ -1,5 +1,5 @@
 app:
-  name: Fleetbase
+  name: Alvora Vector
 common:
   new: Novo
   create: Criar
@@ -578,7 +578,7 @@ auth:
       divider: 'Ou continuar com'
       continue-with: 'Continuar com {provider}'
       signing-in: 'Entrando...'
-      finish-signup: 'Conclua a configuração da sua conta Fleetbase para continuar.'
+      finish-signup: 'Conclua a configuração da sua conta Alvora Vector para continuar.'
       connected-accounts: 'Contas conectadas'
       connected-accounts-help: 'Entre com um provedor em vez de uma senha. Você pode conectar mais de um.'
       linked-heading: 'Conectadas'
@@ -606,7 +606,7 @@ auth:
         not-verified: 'Sua conta precisa ser verificada para continuar.'
         rate-limited: 'Muitas tentativas. Tente novamente em breve.'
         already-linked: 'Esse provedor já está conectado à sua conta.'
-        identity-already-linked: 'Essa conta já está conectada a outro usuário do Fleetbase.'
+        identity-already-linked: 'Essa conta já está conectada a outro usuário do Alvora Vector.'
         last-credential: 'Defina uma senha ou conecte outro provedor primeiro, ou você não conseguirá entrar.'
         link-failed: 'Não foi possível conectar esse provedor. Tente novamente.'
     slow-connection-message: Problemas de conexão detectados.
@@ -630,7 +630,7 @@ auth:
     success-message: Your email address has been updated.
     invalid-verification-code: This email change link is invalid or expired.
     title: Confirm email change
-    message-text: Confirm this change to update the login email for your Fleetbase account.
+    message-text: Confirm this change to update the login email for your Alvora Vector account.
     form:
       code:
         label: Confirmation code
@@ -763,10 +763,10 @@ invite:
     accept-invitation-text: Aceitar Convite
 oauth:
   authorize:
-    title: "Continuar com a Fleetbase"
+    title: "Continuar com a Alvora Vector"
     loading: "Verificando a solicitação..."
-    heading: "{app} quer acessar sua conta da Fleetbase"
-    official: "Feito pela Fleetbase"
+    heading: "{app} quer acessar sua conta da Alvora Vector"
+    official: "Feito pela Alvora Vector"
     signed-in-as: "Conectado como {email}"
     not-you: "Não é você?"
     organization-label: "Organização a compartilhar"
@@ -777,20 +777,20 @@ oauth:
     will-be-able-to: "{app} poderá:"
     allow: "Permitir"
     cancel: "Cancelar"
-    footnote: "Você está compartilhando isto com {app}, não com a Fleetbase."
+    footnote: "Você está compartilhando isto com {app}, não com a Alvora Vector."
     privacy: "Política de privacidade"
     terms: "Termos"
     reauthenticate: "Entre novamente para continuar..."
     errors:
       generic: "Não foi possível concluir esta solicitação."
-      invalid-client: "Este app não está registrado na Fleetbase ou foi desativado."
+      invalid-client: "Este app não está registrado na Alvora Vector ou foi desativado."
       invalid-request: "O link do app não é válido. Volte ao app e tente novamente."
       invalid-scope: "O app pediu um acesso que não tem permissão para ter."
       no-organization: "Escolha uma organização que você administra para compartilhar com este app."
       go-back: "Você pode fechar esta página e voltar ao app."
   connected-apps:
     title: "Apps conectados"
-    help: "Apps em que você entrou com sua conta da Fleetbase e o que cada um pode fazer. Remover um app desconecta você dele e encerra o acesso na hora."
+    help: "Apps em que você entrou com sua conta da Alvora Vector e o que cada um pode fazer. Remover um app desconecta você dele e encerra o acesso na hora."
     organization: "Tem acesso a {organization}"
     sign-in-only: "Somente login"
     last-used: "último uso em {date}"
@@ -836,7 +836,7 @@ onboard:
       resend-email: Reenviar E-mail
       send-by-sms: Enviar por SMS
 install:
-  not-configured-title: Fleetbase is not installed or configured
+  not-configured-title: Alvora Vector is not installed or configured
   not-configured-message: Complete setup from the Fleetbase CLI or application container, then reload this page once the database, migrations, and seed data are ready.
   running-locally-docs: See running locally docs
   cloud-docs: See cloud deployment docs

@@ -1,5 +1,5 @@
 app:
-  name: Fleetbase
+  name: Alvora Vector
 common:
   new: Нов
   create: Създай
@@ -580,7 +580,7 @@ auth:
       divider: 'Или продължете с'
       continue-with: 'Продължете с {provider}'
       signing-in: 'Влизане...'
-      finish-signup: 'Завършете настройката на профила си във Fleetbase, за да продължите.'
+      finish-signup: 'Завършете настройката на профила си в Alvora Vector, за да продължите.'
       connected-accounts: 'Свързани акаунти'
       connected-accounts-help: 'Влизайте чрез доставчик вместо с парола. Можете да свържете повече от един.'
       linked-heading: 'Свързани'
@@ -608,7 +608,7 @@ auth:
         not-verified: 'Профилът ви трябва да бъде потвърден, за да продължите.'
         rate-limited: 'Твърде много опити. Опитайте отново скоро.'
         already-linked: 'Този доставчик вече е свързан с профила ви.'
-        identity-already-linked: 'Този акаунт вече е свързан с друг потребител на Fleetbase.'
+        identity-already-linked: 'Този акаунт вече е свързан с друг потребител на Alvora Vector.'
         last-credential: 'Първо задайте парола или свържете друг доставчик, иначе няма да можете да влизате.'
         link-failed: 'Доставчикът не можа да бъде свързан. Опитайте отново.'
     slow-connection-message: Имате проблеми с връзката.
@@ -632,7 +632,7 @@ auth:
     success-message: Your email address has been updated.
     invalid-verification-code: This email change link is invalid or expired.
     title: Confirm email change
-    message-text: Confirm this change to update the login email for your Fleetbase account.
+    message-text: Confirm this change to update the login email for your Alvora Vector account.
     form:
       code:
         label: Confirmation code
@@ -765,10 +765,10 @@ invite:
     accept-invitation-text: Приеми поканата
 oauth:
   authorize:
-    title: "Продължи с Fleetbase"
+    title: "Продължи с Alvora Vector"
     loading: "Проверяваме заявката..."
-    heading: "{app} иска достъп до вашия акаунт във Fleetbase"
-    official: "Създадено от Fleetbase"
+    heading: "{app} иска достъп до вашия акаунт в Alvora Vector"
+    official: "Създадено от Alvora Vector"
     signed-in-as: "Влезли сте като {email}"
     not-you: "Не сте вие?"
     organization-label: "Организация за споделяне"
@@ -779,20 +779,20 @@ oauth:
     will-be-able-to: "{app} ще може да:"
     allow: "Разреши"
     cancel: "Отказ"
-    footnote: "Споделяте това с {app}, а не с Fleetbase."
+    footnote: "Споделяте това с {app}, а не с Alvora Vector."
     privacy: "Политика за поверителност"
     terms: "Условия"
     reauthenticate: "Влезте отново, за да продължите..."
     errors:
       generic: "Заявката не можа да бъде изпълнена."
-      invalid-client: "Това приложение не е регистрирано във Fleetbase или е изключено."
+      invalid-client: "Това приложение не е регистрирано в Alvora Vector или е изключено."
       invalid-request: "Връзката от приложението не е валидна. Върнете се в приложението и опитайте отново."
       invalid-scope: "Приложението поиска достъп, който не му е разрешен."
       no-organization: "Изберете организация, която администрирате, за да я споделите с това приложение."
       go-back: "Можете да затворите страницата и да се върнете в приложението."
   connected-apps:
     title: "Свързани приложения"
-    help: "Приложения, в които сте влезли с акаунта си във Fleetbase, и какво може всяко от тях. Премахването на приложение ви отписва от него и спира достъпа му веднага."
+    help: "Приложения, в които сте влезли с акаунта си в Alvora Vector, и какво може всяко от тях. Премахването на приложение ви отписва от него и спира достъпа му веднага."
     organization: "Има достъп до {organization}"
     sign-in-only: "Само вход"
     last-used: "последно използвано {date}"
@@ -840,7 +840,7 @@ onboard:
       resend-email: Изпрати имейл отново
       send-by-sms: Изпрати чрез SMS
 install:
-  not-configured-title: Fleetbase is not installed or configured
+  not-configured-title: Alvora Vector is not installed or configured
   not-configured-message: Complete setup from the Fleetbase CLI or application container, then reload this page once the database, migrations, and seed data are ready.
   running-locally-docs: See running locally docs
   cloud-docs: See cloud deployment docs
